@@ -1,0 +1,49 @@
+.Homepage
+{
+    color:red;
+    text-align: center;
+    font-size:  22px;
+    
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+  
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.login
+{
+    width: 150px;
+    height: 50px;
+}
+
+  .mat-drawer-container{
+      background-color:rgb(5, 5, 5) ;
+  }
+  .mat-drawer{
+
+    background-color: black;
+  }
+
+  .mat-elevtion-z5{
+      position: relative;
+      z-index: 2;
+
+  }
+.mat-sidenav a:hover{
+    color:blue;
+}
+
+.login {
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.login:hover{
+    background-color: blanchedalmond;
+    color: black;
+    font-weight: bold;
+}

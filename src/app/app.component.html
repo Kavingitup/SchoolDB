@@ -1,0 +1,35 @@
+<p>
+<mat-toolbar style="background-color:brown" class="mat-elevtion-z5">
+<mat-toolbar-row>
+  <span>Logo</span>
+  <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    </button>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    </button>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>home</mat-icon>
+    </button>
+</mat-toolbar-row>    
+</mat-toolbar>
+</p>
+
+<mat-sidenav-container>
+  <mat-sidenav mode="side" opened>
+<mat-nav-list style="width: 200px;">
+  <a mat-list-item routerLink='one' style="height: 60px;"><mat-icon>dashboard</mat-icon>Dashboard</a>
+  <a mat-list-item routerLink='two' style="height: 60px;"><mat-icon>copyright</mat-icon>student</a>
+  <a mat-list-item style="height: 60px;"><mat-icon>contact_support</mat-icon>Staff Details</a>
+  <a mat-list-item style="height: 60px;"><mat-icon>sentiment_satisfied_alt</mat-icon>Attendence</a>
+  <a mat-list-item><mat-icon>done</mat-icon>Feedback</a>
+</mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <p style="height: 88vh;">
+      <router-outlet></router-outlet>
+      </p>
+  </mat-sidenav-content>
+</mat-sidenav-container>          
